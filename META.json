@@ -4,9 +4,9 @@
       "haarg - Graham Knop (cpan:HAARG) <haarg@haarg.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520",
    "license" : [
-      "perl_5"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -20,17 +20,8 @@
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Test::Fatal" : "0",
-            "Test::More" : "0.94"
-         }
-      },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
+      "build" : {},
+      "configure" : {},
       "runtime" : {
          "requires" : {
             "Class::Method::Modifiers" : "1.05",
@@ -38,14 +29,22 @@
             "perl" : "5.008001",
             "strictures" : "1"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Fatal" : "0",
+            "Test::More" : "0.94"
+         }
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://github.com/haarg/MooX-SetOnce",
       "repository" : {
-         "url" : "git://github.com/haarg/MooX-SetOnce.git"
+         "type" : "git",
+         "url" : "git://github.com/haarg/MooX-SetOnce.git",
+         "web" : "https://github.com/haarg/MooX-SetOnce",
+         "x_tyoe" : "git"
       }
    },
-   "version" : "0.001000"
+   "version" : "0.001001"
 }

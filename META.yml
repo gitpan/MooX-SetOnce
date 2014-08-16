@@ -3,27 +3,24 @@ abstract: 'write-once attributes for Moose'
 author:
   - 'haarg - Graham Knop (cpan:HAARG) <haarg@haarg.org>'
 build_requires:
-  Test::Fatal: 0
-  Test::More: 0.94
-configure_requires:
-  ExtUtils::MakeMaker: 0
+  Test::Fatal: '0'
+  Test::More: '0.94'
 dynamic_config: 0
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
-license: perl
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520'
+license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: MooX-SetOnce
 no_index:
   directory:
     - t
     - inc
 requires:
-  Class::Method::Modifiers: 1.05
-  Moo: 1.002
-  perl: 5.008001
-  strictures: 1
+  Class::Method::Modifiers: '1.05'
+  Moo: '1.002'
+  perl: '5.008001'
+  strictures: '1'
 resources:
-  homepage: http://github.com/haarg/MooX-SetOnce
   repository: git://github.com/haarg/MooX-SetOnce.git
-version: 0.001000
+version: '0.001001'
