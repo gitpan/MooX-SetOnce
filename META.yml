@@ -7,7 +7,7 @@ build_requires:
   Test::More: '0.94'
 dynamic_config: 0
 generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520'
-license: unknown
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
@@ -23,4 +23,4 @@ requires:
   strictures: '1'
 resources:
   repository: git://github.com/haarg/MooX-SetOnce.git
-version: '0.001001'
+version: '0.001002'
